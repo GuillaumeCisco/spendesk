@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "recipes",
+    "name": "spendesk",
     "productName": "Spendesk website",
     "author": "Guillaume Cisco <guillaumecisco@gmail.com>",
     "version": "0.0.1",
