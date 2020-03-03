@@ -7,6 +7,8 @@ test('Render correctly', () => {
         approvers: [
             {
                 id: 'USR7',
+                first_name: 'Andy',
+                last_name: 'Bishop',
             },
         ],
     };

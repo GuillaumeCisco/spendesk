@@ -24,7 +24,7 @@ test('Render correctly', () => {
 
     const container = shallow(<Approver {...props} />);
     expect(container.find('AvailableApprovers').exists()).toBeFalsy();
-    expect(container.find('li div span').first().html()).toContain('From 1000 to');
+    expect(container.find('li div span').first().html()).toContain('Up to');
     spy = jest.spyOn(container.instance(), 'onChange');
     container.instance().forceUpdate();
     container.find('input').simulate('change', {name: 'value', target: {value: '2000'}});

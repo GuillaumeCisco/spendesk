@@ -53,7 +53,7 @@ For electron, you need to install `libgconf-2-4`
 
 `sudo apt install libgconf-2-4`
 
-For testing and developping on the projet with true hot module replacement, run  
+For testing and developing on the project with true hot module replacement, run  
 `yarn start`
 
 For testing with prod config:  
